@@ -23,7 +23,7 @@
 package com.raywenderlich.babybookcase;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -31,7 +31,7 @@ import android.widget.GridView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
   private static final String favoritedBookNamesKey = "favoritedBookNamesKey";
 
@@ -89,25 +89,25 @@ public class MainActivity extends ActionBarActivity {
 
   private Book[] books = {
     new Book(R.string.abc_an_amazing_alphabet_book, R.string.dr_seuss, R.drawable.abc,
-      "http://ecx.images-amazon.com/images/I/51rFg8xKvxL._AA240_FMwebp_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/abc.jpg"),
     new Book(R.string.are_you_my_mother, R.string.dr_seuss, R.drawable.areyoumymother,
-      "http://ecx.images-amazon.com/images/I/51Zu5zbzWDL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/areyoumymother.jpg"),
     new Book(R.string.where_is_babys_belly_button, R.string.karen_katz, R.drawable.whereisbabysbellybutton,
-      "http://ecx.images-amazon.com/images/I/51scITk38DL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/whereisbabysbellybutton.jpg"),
     new Book(R.string.on_the_night_you_were_born, R.string.nancy_tillman, R.drawable.onthenightyouwereborn,
-      "http://ecx.images-amazon.com/images/I/51pny-HGhnL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/onthenightyouwereborn.jpg"),
     new Book(R.string.hand_hand_fingers_thumb, R.string.dr_seuss, R.drawable.handhandfingersthumb,
-      "http://ecx.images-amazon.com/images/I/51W+iGZ-dkL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/handhandfingersthumb.jpg"),
     new Book(R.string.the_very_hungry_caterpillar, R.string.eric_carle, R.drawable.theveryhungrycaterpillar,
-      "http://ecx.images-amazon.com/images/I/41zqrOnjpTL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/theveryhungrycaterpillar.jpg"),
     new Book(R.string.the_going_to_bed_book, R.string.sandra_boynton, R.drawable.thegoingtobedbook,
-      "http://ecx.images-amazon.com/images/I/61TU+6P-3yL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/thegoingtobedbook.jpg"),
     new Book(R.string.oh_baby_go_baby, R.string.dr_seuss, R.drawable.ohbabygobaby,
-      "http://ecx.images-amazon.com/images/I/518wNY-AF7L._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/ohbabygobaby.jpg"),
     new Book(R.string.the_tooth_book, R.string.dr_seuss, R.drawable.thetoothbook,
-      "http://ecx.images-amazon.com/images/I/51RFYYCYRTL._AA240_QL65_.jpg"),
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/thetoothbook.jpg"),
     new Book(R.string.one_fish_two_fish_red_fish_blue_fish, R.string.dr_seuss, R.drawable.onefish,
-      "http://ecx.images-amazon.com/images/I/51dYLc1uKsL._AA240_QL65_.jpg")
+      "http://www.raywenderlich.com/wp-content/uploads/2016/03/onefish.jpg")
   };
 
 }

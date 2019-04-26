@@ -92,7 +92,7 @@ public class BooksAdapter extends BaseAdapter {
     }
 
     final ViewHolder viewHolder = (ViewHolder)convertView.getTag();
-//    viewHolder.imageViewCoverArt.setImageResource(book.getImageResource());
+    viewHolder.imageViewCoverArt.setImageResource(book.getImageResource());
     viewHolder.nameTextView.setText(mContext.getString(book.getName()));
     viewHolder.authorTextView.setText(mContext.getString(book.getAuthor()));
     viewHolder.imageViewFavorite.setImageResource(book.getIsFavorite() ? R.drawable.star_enabled : R.drawable.star_disabled);
